@@ -30,15 +30,15 @@ public class Main {
         bootcamp.getConteudos().add(curso2);
         bootcamp.getConteudos().add(mentoria);
 
-        Dev devWander = new Dev();
-        devWander.setName("Carlos");
-        devWander.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos inscritos Wander:" + devWander.getConteudosInscritos());
-        devWander.progredir();
+        Dev devCarlos = new Dev();
+        devCarlos.setName("Carlos");
+        devCarlos.inscreverBootcamp(bootcamp);
+        System.out.println("Conteúdos inscritos Wander:" + devCarlos.getConteudosInscritos());
+        devCarlos.progredir();
         System.out.println("-");
-        System.out.println("Conteúdos inscritos Wander:" + devWander.getConteudosInscritos());
-        System.out.println("Conteúdos concluidos Wander:" + devWander.getConteudosConcluidos());
-        System.out.println("XP:" + devWander.calcularTotalXp());
+        System.out.println("Conteúdos inscritos Wander:" + devCarlos.getConteudosInscritos());
+        System.out.println("Conteúdos concluidos Wander:" + devCarlos.getConteudosConcluidos());
+        System.out.println("XP:" + devCarlos.calcularTotalXp());
 
         System.out.println("------------");
 
